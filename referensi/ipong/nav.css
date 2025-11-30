@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "inter", sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1, 6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* STYLING HEADER */
+.main-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #1d1d1f;
+    font-size: 16px;
+    padding: 4px 6px;
+    font-weight: 400;
+    transition: color 0.3s case-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav a:hover {
+    color: #0071e3;
+}
+
+/* styling buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s case-in-out;
+    background-color: 0.3s case-in-out;
+}
+
+a.btn-nav {
+    background-color: #0071e3;
+    color: white;
+    transition: all 0.3s case-in-out;
+    border-radius: 6px;
+
+}
+
+a.btn-nav:hover {
+    color: white;
+    background-color: #004b96;
+}
+
+.btn-primary {
+    background-color: #0071e3;
+    color: white;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.btn-secondary {
+    background-color: #ddd;
+    color: #1d1d1f;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+}
+
+/* styling her section */
+.hero-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-teks {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-teks h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-teks h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-teks p {
+    font-size: 20px;
+    font-weight: 450px;
+    margin-bottom: 30px;
+    color: #6e6e73;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* STYLING FEATURES SECTION */
+.features-section {
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 600px;
+    margin-bottom: 60px;
+}
+
+.features-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #f5f5f7;
+    padding: 40px;
+    border-radius: 20px;
+    flex: 1;
+    /* membuat tiga kartu memiliki lebar yg sama */
+    transition: transform 0.3s case-in-out, box-shadow 0.3s case;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #6e6e73;
+}
+
+/* STYLING FOOTER */
+.main-footer {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #6e6e73;
+}
