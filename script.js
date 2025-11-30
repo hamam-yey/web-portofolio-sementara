@@ -5,7 +5,7 @@ const projectsLagi = [
   {
     title: "Kalkulator Zakat Emas",
     description: "Aplikasi Web untuk menghitung zakat emas yang menggunakan logika js (if-else) dengan fitur riwayat penyimpanan menggunakan localStorage.",
-    image: "kalkulator.png",
+    image: "project/kalkulator.png",
     tags: ["HTML"],
     tags2: ["CSS"],
     tags3: ["JavaScript"],
@@ -15,7 +15,7 @@ const projectsLagi = [
   {
     title: "Lampu Merah",
     description: "Web simulasi lampu merah dengan logika js (break-case) juga interval untuk tombol manual dan otomatis.",
-    image: "traffic-lamp.png",
+    image: "project/traffic-lamp.png",
     tags: ["HTML"],
     tags2: ["CSS"],
     tags3: ["JavaScript"],
@@ -24,7 +24,7 @@ const projectsLagi = [
   {
     title: "Portofolio",
     description: "Ini adalah website yang sedang kalian buka, berisi pengenalan tentang diri saya, skill-skill, begitu juga dengan hasil dari project-project yang telah saya buat.",
-    image: "image.png",
+    image: "project/image.png",
     tags: ["HTML"],
     tags2: ["CSS"],
     tags3: ["JavaScript"],
